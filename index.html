@@ -4,31 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FORM</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Apply Here</h1>
-  <form action="post">
-   <div><label for="username">Enter your name :</label>
-    <input type="text" id="username" name="username"
-    placeholder="Enter your name">
-  </div> 
-
-   
   <div>
-    <label for="comment">Enter your comment</label>
-    <br>
-   <textarea  id="comment" name="comment"  cols="30" rows="10"></textarea>
-  </div>
+  <label for="username">Enter your name</label>
+  <input type="text" name="username" id="username" placeholder="Enter your name">
+</div>
 
-  <div>
-    <label for="Gender">Select Gender:</label>
-    <select name="Gender">
-      <option value="Male">Male</option>
-      <option value="Female">Female</option>
-      <option value="Trans">Trans</option>
-     
-    </select>
-  </div>
-  </form>
+<div>
+  <label for="Gender">Select Gender</label>
+<select name="Gender" id="Gender">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Transgender">Transgender</option>
+</select>
+</div>
+
+<div>
+  <label for="Pincode">Pincode</label>
+  <input type="text" name="Pincode" id="Pincode" placeholder="Enter your pincode">
+</div>
+
+<div>
+  <label for="City">City</label>
+  <input type="text" name="City" id="City" placeholder="Enter your City">
+</div>
+
+<div>
+  <label for="Email">Email</label>
+  <input type="text" name="Email" id="Email" placeholder="Enter your Email">
+</div>
+
 </body>
 </html>
