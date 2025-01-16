@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(126, 148, 148);
+  padding: 50px;
+
+}
+.box{
+  margin: 15px;
+  padding: 15px;
+  width: 450px;
+  height: 600px;
+  border-radius: 50px;
+  background-color: white;
+}
+.img{
+  margin-left: 23px;
+  margin-top: 13px;
+  padding: 3px;
+  width: 400px;
+  height: 300px;
+  border-radius: 50px;
+}
+.button{
+  margin: 3px;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: seagreen;
+  color: wheat;
+  cursor:pointer
+  
+
+}
+.btn{
+  margin-left: 180px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgb(174, 243, 220);
+  color: black;
+  border: hidden;
+  cursor: pointer;
+  
+}
+.btn:hover{
+  background-color: rgb(201, 117, 117);
+}
+button:hover{
+  background-color: rgb(156, 74, 156);
+  
+}
+
