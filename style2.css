@@ -1,0 +1,32 @@
+.container{
+  background-color: aqua;
+  width: 800px;
+  height: 500px;
+  position: relative;
+}
+.box{
+  background-color: rgb(206, 72, 19);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: animationX 3s linear 1s  infinite, animationY 1s ease-out 1s alternate infinite;
+}
+@keyframes animationX{
+  from{
+    left: 0;
+}
+  to{
+    left: 100%;
+}
+}
+@keyframes animationY{
+  from{
+    bottom: 0;
+  }
+  to{
+    bottom: 100%;
+  }
+}
